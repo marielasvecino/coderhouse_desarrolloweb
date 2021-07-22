@@ -1,0 +1,38 @@
+
+$color-back-ul:rgb(76, 76, 194);
+
+nav {
+
+    
+ ul{
+    background-color: $color-back-ul;
+
+    li{
+       a{
+       font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       
+        }
+   }
+ }
+    
+
+}
+
+div{
+   video{
+      height: 768px;
+      width: 1366px;
+      margin: 0%;
+   }
+}
+
+.button--yoga{
+   background-color: orange;
+}
+.button--medi{
+   background-color:green;
+}
+.button--tera{
+   background-color: purple;
+}
+

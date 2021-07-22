@@ -1,0 +1,186 @@
+
+body{background-color: aqua;
+}
+
+h4{font-family: "Caveat", cursive;
+    color:blue;
+    font-size: 48px;  
+    animation-duration: 3s; 
+    animation-name: aparece;
+}
+
+footer{font-size: 24px !important;
+       font-family: "Caveat", cursive;
+       color: coral;
+
+}
+
+.transforma{
+    transform: skewX(10deg);
+    
+}
+
+.escala{
+    width: 200px;
+    height: 200px;
+    transition: heigth 2s, width 2s;
+}
+
+.escala:hover{
+    width: 400px;
+    height: 400px;
+}
+
+
+
+.pagina
+{
+    background-image:linear-gradient(orange, yellow );
+}
+
+.pagina__titulo
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    color:rgba(55, 80, 221, 0.993);
+}
+
+.pagina__texto
+{
+    
+    color:darkcyan;
+}
+
+
+
+
+.colorFormulario 
+{ color: rgba(55, 80, 221, 0.993);
+}
+.Cabecera{
+    text-align: center;
+    margin:auto;
+} 
+
+
+p{
+   border: solid;
+   padding-right: 40px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   display: inline-block;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 24px;
+}
+footer{
+    border: solid;
+    padding-left: 500px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top: 50px;
+    
+}
+
+.imagenlogo{
+    
+    height: 32px;
+    width: 32px;
+    margin-left: 150px;
+    
+    }
+
+  .video{
+      display: flex;
+      height: auto;
+      width: auto;
+      
+  }  
+
+    #cuadrícula{
+        display: grid;
+        background-image: linear-gradient(violet,white);
+        grid-template-rows: 50px 50px 50px 50px;
+        justify-self: center;
+    }
+    
+    .border{
+        border: 1px solid; color: blue;
+    }   
+@media only screen and(min-width:768px)
+{
+#cuadrícula{
+    display: grid;
+    background-color: violet;
+    grid-template-rows: 40px 40px 40px 40px;
+    justify-self: center;
+}
+
+.border{
+    border: 1px solid; color: blue;
+}
+}
+
+@media only screen and(min-width:320px)
+{
+#cuadrícula{
+    display: grid;
+    background-color: violet;
+    grid-template-rows: 15px 15px 15px 15px;
+    justify-self: center;
+}
+
+.border{
+    border: 1px solid; color: blue;
+}
+}
+
+@media only screen and(min-width:1024px)
+{
+#cuadrícula{
+    display: grid;
+    background-color: violet;
+    grid-template-rows: 50px 50px 50px 50px;
+    justify-self: center;
+}
+
+.border{
+    border: 1px solid; color: blue;
+}
+}
+
+@media only screen and(min-width:420px)
+{
+#cuadrícula{
+    display: grid;
+    background-color: violet;
+    grid-template-rows: 50px 50px 50px 50px;
+    justify-self: center;
+}
+
+.border{
+    border: 1px solid; color: blue;
+}
+}
+
+@keyframes aparece{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
+
+  
+
+
+
+
+
+
+
+
+

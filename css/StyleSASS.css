@@ -1,0 +1,26 @@
+nav ul {
+  background-color: #4c4cc2;
+}
+
+nav ul li a {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div video {
+  height: 768px;
+  width: 1366px;
+  margin: 0%;
+}
+
+.button--yoga {
+  background-color: orange;
+}
+
+.button--medi {
+  background-color: green;
+}
+
+.button--tera {
+  background-color: purple;
+}
+/*# sourceMappingURL=StyleSASS.css.map */
