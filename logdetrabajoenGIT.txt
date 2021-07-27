@@ -1,0 +1,334 @@
+
+marie@LAPTOP-O4K7M1P1 MINGW64 ~/Desktop/Coder House - Desarrollo web/Entrega 22-07-2021 Repositorio GIT (master)
+$
+
+marie@LAPTOP-O4K7M1P1 MINGW64 ~/Desktop/Coder House - Desarrollo web/Entrega 22-07-2021 Repositorio GIT (master)
+$
+
+marie@LAPTOP-O4K7M1P1 MINGW64 ~/Desktop/Coder House - Desarrollo web/Entrega 22-07-2021 Repositorio GIT (master)
+$ git log
+commit 85cd2b6868240cdf88e030cb48dafe1f1a2959b4 (HEAD -> master)
+Author: Mariela Vecino <mariela.s.vecino@gmail.com>
+Date:   Wed Jul 21 22:57:40 2021 -0300
+
+    mi primer commit
+
+marie@LAPTOP-O4K7M1P1 MINGW64 ~/Desktop/Coder House - Desarrollo web/Entrega 22-07-2021 Repositorio GIT (master)
+$ git branch rama1
+
+marie@LAPTOP-O4K7M1P1 MINGW64 ~/Desktop/Coder House - Desarrollo web/Entrega 22-07-2021 Repositorio GIT (master)
+$ git switch rama1
+Switched to branch 'rama1'
+
+marie@LAPTOP-O4K7M1P1 MINGW64 ~/Desktop/Coder House - Desarrollo web/Entrega 22-07-2021 Repositorio GIT (rama1)
+$ git add contacto.html
+
+marie@LAPTOP-O4K7M1P1 MINGW64 ~/Desktop/Coder House - Desarrollo web/Entrega 22-07-2021 Repositorio GIT (rama1)
+$ git commit
+On branch rama1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .vscode/
+        Contacto.html
+        Nosotros.html
+        Propuesta.html
+        Servicios.html
+        audio/
+        bootstrap-5.0.2-dist.zip
+        bootstrap-5.0.2-dist/
+        css/
+        images/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+marie@LAPTOP-O4K7M1P1 MINGW64 ~/Desktop/Coder House - Desarrollo web/Entrega 22-07-2021 Repositorio GIT (rama1)
+$ git add .vscode/
+warning: LF will be replaced by CRLF in .vscode/settings.json.
+The file will have its original line endings in your working directory
+
+marie@LAPTOP-O4K7M1P1 MINGW64 ~/Desktop/Coder House - Desarrollo web/Entrega 22-07-2021 Repositorio GIT (rama1)
+$ git commit
+hint: Waiting for your editor to close the file...
+[main 2021-07-22T02:08:48.059Z] window: using vscode-file:// protocol and V8 cache options: bypassHeatCheck
+[main 2021-07-22T02:08:48.218Z] update#setState idle
+[main 2021-07-22T02:09:18.230Z] update#setState checking for updates
+[main 2021-07-22T02:09:18.471Z] update#setState idle
+
+Aborting commit due to empty commit message.
+
+marie@LAPTOP-O4K7M1P1 MINGW64 ~/Desktop/Coder House - Desarrollo web/Entrega 22-07-2021 Repositorio GIT (rama1)
+$
+
+marie@LAPTOP-O4K7M1P1 MINGW64 ~/Desktop/Coder House - Desarrollo web/Entrega 22-07-2021 Repositorio GIT (rama1)
+$ git commit -m "mi segundo commit"
+[rama1 07dd7f2] mi segundo commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 .vscode/settings.json
+
+marie@LAPTOP-O4K7M1P1 MINGW64 ~/Desktop/Coder House - Desarrollo web/Entrega 22-07-2021 Repositorio GIT (rama1)
+$ git add Contacto.html
+
+marie@LAPTOP-O4K7M1P1 MINGW64 ~/Desktop/Coder House - Desarrollo web/Entrega 22-07-2021 Repositorio GIT (rama1)
+$ git add Nosotros.html
+
+marie@LAPTOP-O4K7M1P1 MINGW64 ~/Desktop/Coder House - Desarrollo web/Entrega 22-07-2021 Repositorio GIT (rama1)
+$ git add Propuesta.html
+
+marie@LAPTOP-O4K7M1P1 MINGW64 ~/Desktop/Coder House - Desarrollo web/Entrega 22-07-2021 Repositorio GIT (rama1)
+$ git add Servicios.htmal
+fatal: pathspec 'Servicios.htmal' did not match any files
+
+marie@LAPTOP-O4K7M1P1 MINGW64 ~/Desktop/Coder House - Desarrollo web/Entrega 22-07-2021 Repositorio GIT (rama1)
+$ git commit
+hint: Waiting for your editor to close the file...
+[main 2021-07-22T02:12:39.902Z] window: using vscode-file:// protocol and V8 cache options: bypassHeatCheck
+[main 2021-07-22T02:12:40.027Z] update#setState idle
+Aborting commit due to empty commit message.
+
+marie@LAPTOP-O4K7M1P1 MINGW64 ~/Desktop/Coder House - Desarrollo web/Entrega 22-07-2021 Repositorio GIT (rama1)
+$ git commit
+hint: Waiting for your editor to close the file...
+[main 2021-07-22T02:13:00.015Z] window: using vscode-file:// protocol and V8 cache options: bypassHeatCheck
+[main 2021-07-22T02:13:00.174Z] update#setState idle
+[main 2021-07-22T02:13:30.179Z] update#setState checking for updates
+[main 2021-07-22T02:13:30.509Z] update#setState idle
+Aborting commit due to empty commit message.
+
+marie@LAPTOP-O4K7M1P1 MINGW64 ~/Desktop/Coder House - Desarrollo web/Entrega 22-07-2021 Repositorio GIT (rama1)
+$ git commit -m "tercer commit"
+[rama1 e13058f] tercer commit
+ 3 files changed, 130 insertions(+)
+ create mode 100644 Contacto.html
+ create mode 100644 Nosotros.html
+ create mode 100644 Propuesta.html
+
+marie@LAPTOP-O4K7M1P1 MINGW64 ~/Desktop/Coder House - Desarrollo web/Entrega 22-07-2021 Repositorio GIT (rama1)
+$ git log
+commit e13058f91a52b4a46d4090b027ac3ff69eb9051e (HEAD -> rama1)
+Author: Mariela Vecino <mariela.s.vecino@gmail.com>
+Date:   Wed Jul 21 23:14:14 2021 -0300
+
+    tercer commit
+
+commit 07dd7f258150cc7765e3eb23fc96dde61ede9d80
+Author: Mariela Vecino <mariela.s.vecino@gmail.com>
+Date:   Wed Jul 21 23:11:04 2021 -0300
+
+    mi segundo commit
+
+commit 85cd2b6868240cdf88e030cb48dafe1f1a2959b4 (master)
+Author: Mariela Vecino <mariela.s.vecino@gmail.com>
+Date:   Wed Jul 21 22:57:40 2021 -0300
+
+    mi primer commit
+
+marie@LAPTOP-O4K7M1P1 MINGW64 ~/Desktop/Coder House - Desarrollo web/Entrega 22-07-2021 Repositorio GIT (rama1)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+marie@LAPTOP-O4K7M1P1 MINGW64 ~/Desktop/Coder House - Desarrollo web/Entrega 22-07-2021 Repositorio GIT (rama1)
+$ git add ^C
+
+marie@LAPTOP-O4K7M1P1 MINGW64 ~/Desktop/Coder House - Desarrollo web/Entrega 22-07-2021 Repositorio GIT (rama1)
+$ git add audio/
+
+marie@LAPTOP-O4K7M1P1 MINGW64 ~/Desktop/Coder House - Desarrollo web/Entrega 22-07-2021 Repositorio GIT (rama1)
+$ git add css/
+warning: LF will be replaced by CRLF in css/StyleSASS.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in css/StyleSASS.css.map.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in css/StyleSASS.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in css/StyleSASS.min.css.map.
+The file will have its original line endings in your working directory
+
+marie@LAPTOP-O4K7M1P1 MINGW64 ~/Desktop/Coder House - Desarrollo web/Entrega 22-07-2021 Repositorio GIT (rama1)
+$ git commit -m "cuarto commit"
+[rama1 747ccea] cuarto commit
+ 8 files changed, 619 insertions(+)
+ create mode 100644 "audio/audio p\303\241gina principal.mp3"
+ create mode 100644 css/StyleSASS.css
+ create mode 100644 css/StyleSASS.css.map
+ create mode 100644 css/StyleSASS.min.css
+ create mode 100644 css/StyleSASS.min.css.map
+ create mode 100644 css/StyleSASS.scss
+ create mode 100644 css/estilos.css
+ create mode 100644 css/normalize.css
+
+marie@LAPTOP-O4K7M1P1 MINGW64 ~/Desktop/Coder House - Desarrollo web/Entrega 22-07-2021 Repositorio GIT (rama1)
+$ git add images
+
+marie@LAPTOP-O4K7M1P1 MINGW64 ~/Desktop/Coder House - Desarrollo web/Entrega 22-07-2021 Repositorio GIT (rama1)
+$ git add ^C
+
+marie@LAPTOP-O4K7M1P1 MINGW64 ~/Desktop/Coder House - Desarrollo web/Entrega 22-07-2021 Repositorio GIT (rama1)
+$ git add bootstrap-5.0.2-dist/
+warning: LF will be replaced by CRLF in bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js.
+The file will have its original line endings in your working directory
+
+marie@LAPTOP-O4K7M1P1 MINGW64 ~/Desktop/Coder House - Desarrollo web/Entrega 22-07-2021 Repositorio GIT (rama1)
+$ git commit - m"5 commit"
+error: pathspec '-' did not match any file(s) known to git
+error: pathspec 'm5 commit' did not match any file(s) known to git
+
+marie@LAPTOP-O4K7M1P1 MINGW64 ~/Desktop/Coder House - Desarrollo web/Entrega 22-07-2021 Repositorio GIT (rama1)
+$ git commit -m"quinto commit"
+[rama1 2fbd549] quinto commit
+ 14 files changed, 15 insertions(+)
+ create mode 100644 bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css
+ create mode 100644 bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css.map
+ create mode 100644 bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js
+ create mode 100644 images/Footage - 12127.mp4
+ create mode 100644 images/Imagen yoga.png
+ create mode 100644 images/actiidades.jpg
+ create mode 100644 images/comer.jpg
+ create mode 100644 images/equipo.png
+ create mode 100644 images/leer.jpg
+ create mode 100644 images/relajados.png
+ create mode 100644 images/twotone_self_improvement_black_48dp.png
+ create mode 100644 images/twotone_spa_black_48dp.png
+ create mode 100644 images/ws.png
+ create mode 100644 images/zone-relax-vital-bar-01.png
+
+marie@LAPTOP-O4K7M1P1 MINGW64 ~/Desktop/Coder House - Desarrollo web/Entrega 22-07-2021 Repositorio GIT (rama1)
+$ git checkout
+
+marie@LAPTOP-O4K7M1P1 MINGW64 ~/Desktop/Coder House - Desarrollo web/Entrega 22-07-2021 Repositorio GIT (rama1)
+$ git log
+commit 2fbd549a9ed17b94421816fa2610dc12924c8e19 (HEAD -> rama1)
+Author: Mariela Vecino <mariela.s.vecino@gmail.com>
+Date:   Wed Jul 21 23:22:54 2021 -0300
+
+    quinto commit
+
+commit 747cceae62de3c8da093b70177bb09cdb4477d4f
+Author: Mariela Vecino <mariela.s.vecino@gmail.com>
+Date:   Wed Jul 21 23:16:57 2021 -0300
+
+    cuarto commit
+
+commit e13058f91a52b4a46d4090b027ac3ff69eb9051e
+Author: Mariela Vecino <mariela.s.vecino@gmail.com>
+Date:   Wed Jul 21 23:14:14 2021 -0300
+
+    tercer commit
+
+commit 07dd7f258150cc7765e3eb23fc96dde61ede9d80
+Author: Mariela Vecino <mariela.s.vecino@gmail.com>
+Date:   Wed Jul 21 23:11:04 2021 -0300
+
+    mi segundo commit
+
+commit 85cd2b6868240cdf88e030cb48dafe1f1a2959b4 (master)
+Author: Mariela Vecino <mariela.s.vecino@gmail.com>
+Date:   Wed Jul 21 22:57:40 2021 -0300
+
+    mi primer commit
+
+marie@LAPTOP-O4K7M1P1 MINGW64 ~/Desktop/Coder House - Desarrollo web/Entrega 22-07-2021 Repositorio GIT (rama1)
+$ git checkout master
+Switched to branch 'master'
+
+marie@LAPTOP-O4K7M1P1 MINGW64 ~/Desktop/Coder House - Desarrollo web/Entrega 22-07-2021 Repositorio GIT (master)
+$ git branch
+* master
+  rama1
+
+marie@LAPTOP-O4K7M1P1 MINGW64 ~/Desktop/Coder House - Desarrollo web/Entrega 22-07-2021 Repositorio GIT (master)
+$ git merge rama1
+Updating 85cd2b6..2fbd549
+Fast-forward
+ .vscode/settings.json                              |   1 +
+ Contacto.html                                      |  50 +++
+ Nosotros.html                                      |  37 +++
+ Propuesta.html                                     |  43 +++
+ "audio/audio p\303\241gina principal.mp3"          | Bin 0 -> 7745200 bytes
+ .../bootstrap-5.0.2-dist/css/bootstrap.min.css     |   7 +
+ .../bootstrap-5.0.2-dist/css/bootstrap.min.css.map |   1 +
+ .../js/bootstrap.bundle.min.js                     |   7 +
+ css/StyleSASS.css                                  |  26 ++
+ css/StyleSASS.css.map                              |   9 +
+ css/StyleSASS.min.css                              |   2 +
+ css/StyleSASS.min.css.map                          |   9 +
+ css/StyleSASS.scss                                 |  38 +++
+ css/estilos.css                                    | 186 +++++++++++
+ css/normalize.css                                  | 349 +++++++++++++++++++++
+ images/Footage - 12127.mp4                         | Bin 0 -> 441984 bytes
+ images/Imagen yoga.png                             | Bin 0 -> 55438 bytes
+ images/actiidades.jpg                              | Bin 0 -> 7343 bytes
+ images/comer.jpg                                   | Bin 0 -> 9447 bytes
+ images/equipo.png                                  | Bin 0 -> 6917 bytes
+ images/leer.jpg                                    | Bin 0 -> 7511 bytes
+ images/relajados.png                               | Bin 0 -> 6648 bytes
+ images/twotone_self_improvement_black_48dp.png     | Bin 0 -> 4409 bytes
+ images/twotone_spa_black_48dp.png                  | Bin 0 -> 2812 bytes
+ images/ws.png                                      | Bin 0 -> 2514 bytes
+ images/zone-relax-vital-bar-01.png                 | Bin 0 -> 85808 bytes
+ 26 files changed, 765 insertions(+)
+ create mode 100644 .vscode/settings.json
+ create mode 100644 Contacto.html
+ create mode 100644 Nosotros.html
+ create mode 100644 Propuesta.html
+ create mode 100644 "audio/audio p\303\241gina principal.mp3"
+ create mode 100644 bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css
+ create mode 100644 bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css.map
+ create mode 100644 bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js
+ create mode 100644 css/StyleSASS.css
+ create mode 100644 css/StyleSASS.css.map
+ create mode 100644 css/StyleSASS.min.css
+ create mode 100644 css/StyleSASS.min.css.map
+ create mode 100644 css/StyleSASS.scss
+ create mode 100644 css/estilos.css
+ create mode 100644 css/normalize.css
+ create mode 100644 images/Footage - 12127.mp4
+ create mode 100644 images/Imagen yoga.png
+ create mode 100644 images/actiidades.jpg
+ create mode 100644 images/comer.jpg
+ create mode 100644 images/equipo.png
+ create mode 100644 images/leer.jpg
+ create mode 100644 images/relajados.png
+ create mode 100644 images/twotone_self_improvement_black_48dp.png
+ create mode 100644 images/twotone_spa_black_48dp.png
+ create mode 100644 images/ws.png
+ create mode 100644 images/zone-relax-vital-bar-01.png
+
+marie@LAPTOP-O4K7M1P1 MINGW64 ~/Desktop/Coder House - Desarrollo web/Entrega 22-07-2021 Repositorio GIT (master)
+$ git log
+commit 2fbd549a9ed17b94421816fa2610dc12924c8e19 (HEAD -> master, rama1)
+Author: Mariela Vecino <mariela.s.vecino@gmail.com>
+Date:   Wed Jul 21 23:22:54 2021 -0300
+
+    quinto commit
+
+commit 747cceae62de3c8da093b70177bb09cdb4477d4f
+Author: Mariela Vecino <mariela.s.vecino@gmail.com>
+Date:   Wed Jul 21 23:16:57 2021 -0300
+
+    cuarto commit
+
+commit e13058f91a52b4a46d4090b027ac3ff69eb9051e
+Author: Mariela Vecino <mariela.s.vecino@gmail.com>
+Date:   Wed Jul 21 23:14:14 2021 -0300
+
+    tercer commit
+
+commit 07dd7f258150cc7765e3eb23fc96dde61ede9d80
+Author: Mariela Vecino <mariela.s.vecino@gmail.com>
+Date:   Wed Jul 21 23:11:04 2021 -0300
+
+    mi segundo commit
+
+commit 85cd2b6868240cdf88e030cb48dafe1f1a2959b4
+Author: Mariela Vecino <mariela.s.vecino@gmail.com>
+Date:   Wed Jul 21 22:57:40 2021 -0300
+
+    mi primer commit
+
+marie@LAPTOP-O4K7M1P1 MINGW64 ~/Desktop/Coder House - Desarrollo web/Entrega 22-07-2021 Repositorio GIT (master)
+$
